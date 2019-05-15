@@ -9,7 +9,7 @@ ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 #Normal window 
-cv2.namedWindow("O", cv2.WINDOW_NORMAL)
+cv2.namedWindow("Motion Blur", cv2.WINDOW_NORMAL)
 #cv2.resizeWindow('0', 600, 600)
 
 #open image 
