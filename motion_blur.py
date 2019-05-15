@@ -23,5 +23,6 @@ kernel_motion_blur = kernel_motion_blur / size
 
 img_output = cv2.filter2D(image, -1, kernel_motion_blur)
 
+#show an image
 cv2.imshow('Motion Blur', img_output)
 cv2.waitKey(0)
