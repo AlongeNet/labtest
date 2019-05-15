@@ -1,2 +1,2 @@
 # labtest
-Python laboratory with simple a sample
+Python laboratory with simple a samples
